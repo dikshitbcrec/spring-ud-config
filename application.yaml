@@ -8,4 +8,10 @@ eureka:
       default-zone: http://localhost:8761/eureka
   instance:
     prefer-ip-address: true
+
+
+okta:
+  oauth2:
+    issuer: https://dev-83413506.okta.com/oauth2/default
+    audience: api://default
     
